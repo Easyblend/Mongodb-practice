@@ -5,4 +5,4 @@ const schema = mongoose.Schema({
   age: Number,
 });
 
-module.exports = mongoose.module("Person", schema);
+module.exports = mongoose.model("Person", schema);
